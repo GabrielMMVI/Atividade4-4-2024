@@ -14,7 +14,10 @@
 
         } elseif ($chute > $numeroAleatorio) {
             echo "Tente novamente o numeral é menor!\n";
-        } else {
+
+        }
+        elseif ($chute = $numeroAleatorio){
+            echo "Parabéns! Você acertou! O número aleatório é: $numeroAleatorio.\n";
 
             break;
         }
