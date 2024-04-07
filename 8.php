@@ -1,10 +1,10 @@
 <?php
 
-function cowsay($message)
+function cowsay($mensagem)
 {
     $cow = "
   ----------------
-< $message >
+< $mensagem >
   ----------------
          \\   ^__^
           \\  (oo)\\___
@@ -14,6 +14,9 @@ function cowsay($message)
 ";
 
     echo $cow;
+    if ($mensagem = 0){
+        echo $mensagem;
+    }
 }
-$message = "Eu sou uma vaquinha muuuuuuuuu, bora bill! Muuuuuuuuu!";
-cowsay($message);
+$mensagem = readline("Digite o que a vaquinha vai falar: ");
+cowsay($mensagem);
