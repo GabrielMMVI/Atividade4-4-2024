@@ -1,6 +1,6 @@
 
 <?php
-
+//Oi Bill modificando só pra tentar aprender a mexer no git...
 {
     $numeroAleatorio = rand(1, 100);
     $gameLoop = true;

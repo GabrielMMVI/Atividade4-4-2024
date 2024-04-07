@@ -1,4 +1,5 @@
 <?php
+//Oi Bill modificando só pra tentar aprender a mexer no git...
 $altura = readline("Digite sua altura: ");
 $peso = readline("Digite seu peso: ");
 $imc = $peso / ($altura*2);
